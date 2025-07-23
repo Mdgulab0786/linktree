@@ -20,7 +20,7 @@ function App() {
           <div className="relative inline-block mb-6">
             <div className="w-24 h-24 mx-auto rounded-full overflow-hidden   shadow-lg">
               <img 
-                src="/public/aadil_bhai.png" 
+                src="/image/aadil_bhai.png" 
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
@@ -60,7 +60,7 @@ function App() {
           >
             <div className="p-4">
               <img 
-                src="/data/portfolio.png"
+                src="/images  /portfolio.png"
                 alt="Portfolio"
                 className="w-full h-50 object-cover rounded-lg mb-3"
               
