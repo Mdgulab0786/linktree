@@ -20,14 +20,14 @@ function App() {
           <div className="relative inline-block mb-6">
             <div className="w-24 h-24 mx-auto rounded-full overflow-hidden   shadow-lg">
               <img 
-                src="/image/aadil_bhai.png" 
+                src="/src/image/aadil_bhai.png" 
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
           
-          <h1 className="text-2xl font-bold mb-3">Mojahid-Ul </h1>
+          <h1 className="text-2xl font-bold mb-3">Mojahid-Ul hawqu </h1>
           <p className="text-gray-300 text-sm leading-relaxed mb-6 px-4">
             DevOps Engineer | AWS, Azure & GCP | CI/CD, Docker, K8s, Ansible, Terraform | Automating, optimizing, problem-solving, Vibe coder.. Let's connect & build!
           </p>
@@ -60,7 +60,7 @@ function App() {
           >
             <div className="p-4">
               <img 
-                src="/images  /portfolio.png"
+                src="/src/image/portfolio.png"
                 alt="Portfolio"
                 className="w-full h-50 object-cover rounded-lg mb-3"
               
