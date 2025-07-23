@@ -1,29 +1,33 @@
+
 import { Github, Linkedin, Mail, Instagram } from 'lucide-react';
 
 function App() {
   const socialLinks = [
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/mojahid-ul-haque/', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/mojahid-ul-haque/',  label: 'LinkedIn' },
     { icon: Github, href: 'https://github.com/mojahid0862', label: 'GitHub' },
     { icon: Mail, href: 'mailto:hey@mojahidulhaque.com2', label: 'Email' },
-    { icon: Instagram, href: 'https://www.instagram.com/mojahid_ul_haque', label: 'Instagram' },
+    { icon: Instagram, href: 'https://www.instagram.com/mojahid_ul_haque', label: 'Instagram' }
   ];
 
   return (
     <div className="min-h-screen bg-black text-white">
       <div className="container mx-auto px-4 py-12 max-w-md">
+      
+        
+      
         {/* Profile Section */}
         <div className="text-center mb-8">
           <div className="relative inline-block mb-6">
-            <div className="w-24 h-24 mx-auto rounded-full overflow-hidden shadow-lg">
+            <div className="w-24 h-24 mx-auto rounded-full overflow-hidden   shadow-lg">
               <img 
-                src="/aadil_bhai.png" 
+                src="aadil-bhai.png" 
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
-
-          <h1 className="text-2xl font-bold mb-3">Mojahid-Ul hawqu</h1>
+          
+          <h1 className="text-2xl font-bold mb-3">Mojahid-Ul hawqu </h1>
           <p className="text-gray-300 text-sm leading-relaxed mb-6 px-4">
             DevOps Engineer | AWS, Azure & GCP | CI/CD, Docker, K8s, Ansible, Terraform | Automating, optimizing, problem-solving, Vibe coder.. Let's connect & build!
           </p>
@@ -44,6 +48,8 @@ function App() {
           </div>
         </div>
 
+       
+
         {/* Portfolio Card */}
         <div className="mb-6">
           <a
@@ -54,9 +60,10 @@ function App() {
           >
             <div className="p-4">
               <img 
-                src="/portfolio.png"
+                src="public/portfolio.png"
                 alt="Portfolio"
                 className="w-full h-50 object-cover rounded-lg mb-3"
+              
               />
               <h3 className="font-medium text-white group-hover:text-yellow-400 transition-colors duration-300 text-center">
                 Mojahid Ul Haque - Portfolio
@@ -67,8 +74,7 @@ function App() {
 
         {/* Project Cards */}
         <div className="space-y-4">
-
-          {/* IP Lookup */}
+          {/* IP Lookup by Crafzo */}
           <a
             href="https://ip.crafzo.com/"
             target="_blank"
@@ -77,7 +83,7 @@ function App() {
           >
             <div className="p-4">
               <img 
-                src="/IP Geolocation Lookup.png"
+                src="/IP-Geolocation Lookup.png"
                 alt="IP Lookup by Crafzo"
                 className="w-full h-50 object-cover rounded-lg mb-3"
               />
@@ -87,7 +93,7 @@ function App() {
             </div>
           </a>
 
-          {/* Fridge Feast */}
+          {/* Fridge Feast by Crafzo */}
           <a
             href="https://crafzo.com/"
             target="_blank"
@@ -96,7 +102,7 @@ function App() {
           >
             <div className="p-4">
               <img 
-                src="/Fridge Feast.png"
+                src="Fridge-Feast.png"
                 alt="Fridge Feast by Crafzo"
                 className="w-full h-50 object-cover rounded-lg mb-3"
               />
@@ -115,7 +121,7 @@ function App() {
           >
             <div className="p-4">
               <img 
-                src="/CC Generator.png"
+                src="CC-Generator.png"
                 alt="Credit Card Generator"
                 className="w-full h-50 object-cover rounded-lg mb-3"
               />
@@ -125,7 +131,7 @@ function App() {
             </div>
           </a>
 
-          {/* DNS & SSL Toolkit */}
+              {/* DNS & SSL Toolkit*/}
           <a
             href="https://dns.crafzo.com/"
             target="_blank"
@@ -134,8 +140,8 @@ function App() {
           >
             <div className="p-4">
               <img 
-                src="/DNS & SSL Toolkit.png"
-                alt="DNS & SSL Toolkit"
+                src="DNS-&-SSL-Toolkit.png"
+                alt="Credit Card Generator"
                 className="w-full h-50 object-cover rounded-lg mb-3"
               />
               <h3 className="font-medium text-white group-hover:text-yellow-400 transition-colors duration-300 text-center">
@@ -153,7 +159,7 @@ function App() {
           >
             <div className="p-4">
               <img 
-                src="/New School DevOps.png"
+                src="New School DevOps.png"
                 alt="New School DevOps"
                 className="w-full h-51 object-cover rounded-lg mb-3"
               />
@@ -164,12 +170,15 @@ function App() {
           </a>
         </div>
 
+        
+
         {/* Footer */}
         <footer className="text-center mt-12 pt-8 border-t border-gray-800">
           <p className="text-gray-500 text-xs">
             © 2025 Mojahid-Ul Haque. All rights reserved.
           </p>
         </footer>
+
       </div>
     </div>
   );
