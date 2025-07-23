@@ -60,7 +60,7 @@ function App() {
           >
             <div className="p-4">
               <img 
-                src="public/portfolio.png"
+                src="portfolio.png"
                 alt="Portfolio"
                 className="w-full h-50 object-cover rounded-lg mb-3"
               
