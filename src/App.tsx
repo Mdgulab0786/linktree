@@ -27,7 +27,7 @@ function App() {
             </div>
           </div>
           
-          <h1 className="text-2xl font-bold mb-3">Mojahid-Ul Haque</h1>
+          <h1 className="text-2xl font-bold mb-3">Mojahid-Ul </h1>
           <p className="text-gray-300 text-sm leading-relaxed mb-6 px-4">
             DevOps Engineer | AWS, Azure & GCP | CI/CD, Docker, K8s, Ansible, Terraform | Automating, optimizing, problem-solving, Vibe coder.. Let's connect & build!
           </p>
