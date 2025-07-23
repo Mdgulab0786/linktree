@@ -60,7 +60,7 @@ function App() {
           >
             <div className="p-4">
               <img 
-                src="/src/image/portfolio.png"
+                src="/dist/assets/portfolio.png"
                 alt="Portfolio"
                 className="w-full h-50 object-cover rounded-lg mb-3"
               
@@ -83,7 +83,7 @@ function App() {
           >
             <div className="p-4">
               <img 
-                src="/public/IP Geolocation Lookup.png"
+                src="/dist/assets/IP Geolocation Lookup.png"
                 alt="IP Lookup by Crafzo"
                 className="w-full h-50 object-cover rounded-lg mb-3"
               />
