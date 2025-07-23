@@ -20,7 +20,7 @@ function App() {
           <div className="relative inline-block mb-6">
             <div className="w-24 h-24 mx-auto rounded-full overflow-hidden   shadow-lg">
               <img 
-                src="/data/aadil_bhai.png" 
+                src="/public/aadil_bhai.png" 
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
@@ -83,7 +83,7 @@ function App() {
           >
             <div className="p-4">
               <img 
-                src="/data/IP Geolocation Lookup.png"
+                src="/public/IP Geolocation Lookup.png"
                 alt="IP Lookup by Crafzo"
                 className="w-full h-50 object-cover rounded-lg mb-3"
               />
