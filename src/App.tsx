@@ -68,7 +68,7 @@ function App() {
         alt="Portfolio"
         className="w-full h-55 object-cover"
       />
-      <h3 className="absolute bottom-3 left-2  font-semibold text-white px-3 py-1 rounded backdrop-blur-md ">
+      <h3 className="absolute bottom-3 left-2 text-sm font-semibold text-white px-3 py-1 rounded backdrop-blur-md ">
         Mojahid Ul Haque - Portfolio
       </h3>
     </div>
@@ -90,7 +90,7 @@ function App() {
                 alt="IP Lookup by Crafzo"
                 className="w-full h-62 object-cover"
               />
-              <h3 className="absolute bottom-3 left-2  font-semibold text-white px-3 py-1 rounded backdrop-blur-md ">
+              <h3 className="absolute bottom-3 left-2 text-sm font-semibold text-white px-3 py-1 rounded backdrop-blur-md ">
                 IP Lookup by Crafzo
               </h3>
             </div>
@@ -108,7 +108,7 @@ function App() {
                 alt="Fridge Feast by Crafzo"
                 className="w-full h-62 object-cover"
               />
-              <h3 className="absolute bottom-3 left-2  font-semibold text-white px-3 py-1 rounded backdrop-blur-md ">
+              <h3 className="absolute bottom-3 left-2 text-sm font-semibold text-white px-3 py-1 rounded backdrop-blur-md ">
                 Fridge Feast by Crafzo
               </h3>
             </div>
@@ -128,8 +128,8 @@ function App() {
                 className="w-100 h-100 object-cover"
               />
               <span>
-              <p className="absolute bottom-3 left-2  font-semibold text-white px-3 py-1 rounded backdrop-blur-md ">
-                Credit Card Generator for Testing
+              <p className="absolute bottom-3 left-2 text-sm font-semibold text-white px-3 py-1 rounded backdrop-blur-md ">
+                Credit Card Generator for Testing & Devlopment
               </p>
               </span>
             </div>
@@ -148,7 +148,7 @@ function App() {
                 alt="DNS & SSL Toolkit"
                 className="w-full h-62 object-cover"
               />
-              <h3 className="absolute bottom-3 left-2  font-semibold text-white px-3 py-1 rounded backdrop-blur-md ">
+              <h3 className="absolute bottom-3 left-2 text-sm font-semibold text-white px-3 py-1 rounded backdrop-blur-md ">
                 DNS & SSL Toolkit by Crafzo
               </h3>
             </div>
