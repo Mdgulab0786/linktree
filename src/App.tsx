@@ -8,7 +8,7 @@ function App() {
       label: "LinkedIn",
     },
     { icon: Github, href: "https://github.com/mojahid0862", label: "GitHub" },
-    { icon: Mail, href: "mailto:hey@mojahidulhaque.com2", label: "Email" },
+    { icon: Mail, href: "mailto:i@mojahidulhaque.com", label: "Email" },
     {
       icon: Instagram,
       href: "https://www.instagram.com/mojahid_ul_haque",
